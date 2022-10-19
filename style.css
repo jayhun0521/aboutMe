@@ -1,4 +1,4 @@
-body {
+body, li {
     background-color: rgba(11, 70, 33, 0.986);
     text-align: center;
     font-style: Arial, Helvetica, sans-serif;
@@ -10,8 +10,9 @@ h1 {
     text-align: center;
     font-weight: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    font-size: xxx-large;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -20,6 +21,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     margin: auto;
+    margin-top: 50px;
 }
 
 h3 {
@@ -29,6 +31,8 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     margin: auto;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 
 img {
@@ -52,9 +56,39 @@ img {
     line-height: 50px;
     }
 
+
 @media (max-width:400px) {
     .image {
         max-width: 80vw;
         height: auto;
         }
     }
+
+li.list-group-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#history-container {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    margin: 40px;
+}
+
+a{
+    font-size: x-large;
+    font-weight: sans-serif;
+    font-style: sans-serif
+}
