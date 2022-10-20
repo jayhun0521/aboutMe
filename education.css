@@ -1,23 +1,72 @@
 header{
-    position: center;
     margin-top: 50px;
-    padding; 0;
-    font-size: xx-large
-    
-    
+    padding: 0;
+    font-size: x-large
+        
 
 }
 
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+  }
 
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    font-size: larger;
+    font-weight: 550;
+}
 
 
 body{
-    background-color: orange;
+    background-color: rgb(231, 214, 60);
     font-family: Helvetica, Sans-Serif, Arial;
+    border-style: ridge;
+    display: flexbox;
 
+}
+
+h1{
+    position: relative;
+    display: block;
+    padding-left: 50%;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: x-large;
+    padding-left: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+h3{
+    padding-left: 30px;
+    margin-left: 20px;
 }
 
 .container{
     position: relative;
 
+}
+
+img{
+    padding: 30px;
+    margin: 20px;
+    border-style: ridge;
+}
+
+ul, li{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    margin-left: 20px;
+    
 }
